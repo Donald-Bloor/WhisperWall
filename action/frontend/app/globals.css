@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0b1021;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color: white;
+  background: radial-gradient(1000px 600px at 10% 10%, #3ad6c914 0, transparent 40%),
+              radial-gradient(800px 500px at 90% 20%, #c6b0f714 0, transparent 45%),
+              radial-gradient(900px 700px at 50% 90%, #a7f3d014 0, transparent 45%),
+              #0b1021;
+}
+
+.glass {
+  backdrop-filter: blur(12px);
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+

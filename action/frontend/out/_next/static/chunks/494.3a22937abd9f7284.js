@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[494],{3494:(e,n,i)=>{i.r(n),i.d(n,{SepoliaConfig:()=>t,createInstance:()=>r,initSDK:()=>a});let a=window.relayerSDK.initSDK,r=window.relayerSDK.createInstance,t=window.relayerSDK.SepoliaConfig}}]);
